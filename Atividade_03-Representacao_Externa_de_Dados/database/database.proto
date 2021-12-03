@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+message Curso {
+	string nome = 1;
+	int32 cod = 2;
+}
+
+message Disciplina {
+	string cod = 1;
+	string nome = 2;
+	string professor = 3;
+	int32 cod_curso = 4;
+}
+
+message Matricula {
+	int32 ra = 1;
+	string cod_disciplina = 2;
+	int32 ano = 3;
+	int32 semestre = 4;
+	float nota = 5;
+	int32 faltas = 6;
+}
+
+message Aluno {
+	int32 ra= 1;
+	string nome = 2;
+	int32 periodo= 3;
+	int32 cod_curso = 4;
+}
