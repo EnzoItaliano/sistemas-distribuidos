@@ -1,0 +1,16 @@
+-----------
+Guia Rápido
+-----------
+
+* com Maven
+
+Compilar:
+---------
+
+mvn compile
+
+
+Executar:
+---------
+
+mvn exec:java -D"exec.mainClass"="Server" 
