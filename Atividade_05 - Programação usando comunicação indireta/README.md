@@ -10,6 +10,9 @@ As bibliotecas que foram utilizadas:
 - Pika, Pandas e Json
 
 ## Como executar
+
+Observação: é preciso descompactar o arquivo "premier league teams 2020-09-20 till 2020-10-13.csv" que está na pasta "/data/"
+
 - Em um terminal, executar o cliente dentro do diretório /src/ --> python client.py
 - Em outro terminal, executar o classificador dentro do diretório /src/ --> python classifier.py
 - E por fim, no terceiro terminal, executar o coletor dentro do diretório /src/ --> python collector.py
